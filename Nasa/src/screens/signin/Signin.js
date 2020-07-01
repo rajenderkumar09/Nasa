@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Keyboard } from 'react-native';
 import { Container, Content, Form, Item, Label, Card, CardItem, Body, Text, Input, Button } from 'native-base';
-import axios from 'axios';
 
 import { get } from '../../api/Service';
 import {alert} from '../../utils/Utils';
