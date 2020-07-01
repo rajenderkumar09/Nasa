@@ -70,7 +70,9 @@ export default class Signin extends React.Component {
         
         this.setState({isLoading:true});
         const {asteroidID} = this.state;
-        let endPoint = `browse?api_key=${apiConfig.key}`;
+        //let endPoint = `browse?api_key=${apiConfig.key}`;
+        let endPoint = `browse?api_key=DEMO_KEY`;
+
         get(endPoint)
         .then(this.onRandomResponse)
         .catch(this.onError)
