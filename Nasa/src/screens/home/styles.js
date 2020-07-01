@@ -2,29 +2,25 @@ import React from 'react';
 import { StyleSheet, Platform } from 'react-native';
 
 export default StyleSheet.create({
-    inputText: {
-        width:'100%',
-        color: 'black',
-        fontSize: 16,
-        marginBottom:8,
-        ...Platform.select({
-            ios: { fontWeight: '400' },
-            android: { fontFamily: 'SF-Pro-Display-Regular', }
-        }),
+    itemStyle:{
+        justifyContent:'space-between',
     },
-    buttonText: {
+    titleText: {
         color: 'black',
-        fontSize: 18,
+        textAlign: 'left',
+        fontSize: 16,
         ...Platform.select({
             ios: { fontWeight: '600' },
             android: { fontFamily: 'SF-Pro-Display-Regular', }
         }),
     },
-    button:{
-        borderColor:'black'
+    valueText: {
+        color: '#1c1c1b',
+        textAlign: 'left',
+        fontSize: 16,
+        ...Platform.select({
+            ios: { fontWeight: '400' },
+            android: { fontFamily: 'SF-Pro-Display-Regular', }
+        }),
     },
-    disable:{
-        borderColor:'gray'
-    }
-
 })

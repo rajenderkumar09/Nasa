@@ -5,18 +5,18 @@
  * @format
  * @flow
  */
-
 import React, {Component} from 'react';
-import {Container} from 'native-base';
-import Navigator from './Navigator';
+import { NavigationContainer } from '@react-navigation/native';
+import Navigator from './src/navigator/Navigator';
 
 
 export default class App extends Component {
   render() {
     return (
-      <Container>
+      <NavigationContainer>
         <Navigator />
-      </Container>
+      </NavigationContainer>
     );
   }
 }
+
