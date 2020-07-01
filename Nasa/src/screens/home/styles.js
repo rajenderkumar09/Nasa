@@ -7,7 +7,6 @@ export default StyleSheet.create({
     },
     titleText: {
         color: 'black',
-        textAlign: 'left',
         fontSize: 16,
         ...Platform.select({
             ios: { fontWeight: '600' },
@@ -16,7 +15,6 @@ export default StyleSheet.create({
     },
     valueText: {
         color: '#1c1c1b',
-        textAlign: 'left',
         fontSize: 16,
         ...Platform.select({
             ios: { fontWeight: '400' },
