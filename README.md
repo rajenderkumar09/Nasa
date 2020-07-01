@@ -1,6 +1,7 @@
 # Nasa
-Assignment for React Native
-# API:
+	Assignment for React Native - This repo is created for demo purpose only.
+
+# API for fetching data:
 	https://api.nasa.gov/ 
 	
 # Styling app UI:
